@@ -1,0 +1,21 @@
+{
+    "data_paths": {
+      "spam_data": "data/spam_dataset.csv",
+      "ham_data": "data/ham_dataset.csv",
+      "test_data": "data/test_dataset.csv",
+      "new_data": "data/new_data.csv"
+    },
+    "model_paths": {
+      "trained_model": "models/trained_model.pkl",
+      "vectorizer": "models/vectorizer.pkl"
+    },
+    "model_parameters": {
+      "vectorizer_max_features": 10000,
+      "test_split_size": 0.2
+    },
+    "other_settings": {
+      "threshold": 0.5,
+      "api_endpoint": "http://spam-filtering-api.com/predict"
+    }
+  }
+  
